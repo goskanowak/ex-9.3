@@ -14,4 +14,6 @@ console.log(text.length/2);
 
 var partText = changeVelociraptor.slice(0,72);
 
+document.getElementById('sentence').innerHTML = partText;
+
 console.log(partText);
